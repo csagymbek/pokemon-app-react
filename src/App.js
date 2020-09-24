@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import PokemonList from "./components/PokemonList";
 import Pagination from "./components/Pagination";
+// https://pokeapi.co/
 
 export default function App() {
   const [pokemon, setPokemon] = useState([]);
